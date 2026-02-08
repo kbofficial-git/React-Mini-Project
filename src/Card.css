@@ -1,0 +1,41 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-title {
+  color: #333;
+  margin: 0 0 16px 0;
+  font-size: 24px;
+}
+
+.card-status {
+  color: #666;
+  margin: 12px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.like-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.like-button:hover {
+  background: #0056b3;
+}
